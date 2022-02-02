@@ -14,10 +14,9 @@ You used merkle tree, user's is in list of share list. so decrease search deep a
 implemented on-chain verification with smart contract and local verification with merkletreejs. 
 
 # Development Environment: Hardhat. 
-1. Test
+1. Test:
 npx hardhat compile
 npx hardhat test
-
-2. Deploy to linkeby. 
+2. Deploy to linkeby: 
 npx hardhat run --network rinkeby scripts/deploy.ts
 
