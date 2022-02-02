@@ -15,8 +15,8 @@ implemented on-chain verification with smart contract and local verification wit
 
 # Development Environment: Hardhat. 
 1. Test:
-npx hardhat compile
-npx hardhat test
+  - npx hardhat compile
+  - npx hardhat test
 2. Deploy to linkeby: 
-npx hardhat run --network rinkeby scripts/deploy.ts
+  - npx hardhat run --network rinkeby scripts/deploy.ts
 
